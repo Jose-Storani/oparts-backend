@@ -1,5 +1,6 @@
 package com.oparts.service;
 
+import com.oparts.model.Estadistica;
 import com.oparts.model.Personaje;
 import com.oparts.repository.PersonajeRepository;
 import java.util.List;
@@ -25,5 +26,11 @@ public class PersonajeService {
       throw new IllegalArgumentException("No existe un personaje con id " + id);
     }
     return p;
+  }
+
+  public Personaje asignarEstadistica(int id, Estadistica estadistica, int valor){
+      Personaje p = obtenerPersonaje(id);
+      p.setEstadistica(estadistica, valor);
+      return p;
   }
 }
