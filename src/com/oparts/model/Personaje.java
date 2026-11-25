@@ -1,23 +1,24 @@
 package com.oparts.model;
 
 public class Personaje {
-  //el personaje tambien deberia tener un indicador de a que usuario corresponde
-  private int id;
+  // a futuro: indicar a qué usuario pertenece el personaje
+  private int id; // 0 significa "todavía no guardado"
   private String nombre;
   private int edad;
-  private String clase; //esto a futuro va a ser una clase propia con nombre de clase, descripcion, forma de ganar espiritu, atributos iniciales.
-  private final Estadisticas estadisticas = new Estadisticas(); //siempre las mismas 6 estadísticas; sus valores suben con la experiencia. Existen subestadisticas derivadas de cada una, pero eso es mas adelante.
+  private String clase; // a futuro será una clase propia (nombre, descripción, forma de ganar espíritu, atributos iniciales); un personaje podrá cambiar de clase e incluso tener dos
+  private final Estadisticas estadisticas = new Estadisticas(); // siempre las mismas 6 estadísticas; sus valores suben con la experiencia. Existen subestadísticas derivadas, pero eso es más adelante.
 
-  public Personaje(String nombre, int edad, String clase){
-    this.nombre = nombre;
-    this.edad= edad;
-    this.clase = clase;
-
-
+  public Personaje(String nombre, int edad, String clase) {
+    this.nombre = textoNoVacio(nombre, "El nombre no puede estar vacío");
+    if (edad < 1) {
+      throw new IllegalArgumentException("La edad debe ser mayor a 0");
+    }
+    this.edad = edad;
+    this.clase = textoNoVacio(clase, "La clase no puede estar vacía");
   }
 
-  //GETTERS
-  public int getId() {return id;}
+  // --GETTERS ---
+  public int getId() { return id; }
 
   public String getNombre() { return nombre; }
 
@@ -29,29 +30,32 @@ public class Personaje {
     return estadisticas.get(e);
   }
 
-  //-------SETTERS-----------
-  public void setEstadistica(Estadistica e, int valor) {
-    estadisticas.set(e, valor);
-  }
-
-    public void setId(int id) {
+  // -SETTERS ----
+  public void setId(int id) {
     if (this.id != 0) {
       throw new IllegalStateException("El personaje ya tiene un id asignado");
     }
     this.id = id;
   }
 
-    public void setClase(String clase){
-      this.clase = clase; //los personajes pueden cambiar de clase durante el juego, incluso tener dos llegado el caso.
-    }
+  public void setClase(String clase) {
+    this.clase = textoNoVacio(clase, "La clase no puede estar vacía");
+  }
 
-      @Override
+  public void setEstadistica(Estadistica e, int valor) {
+    estadisticas.set(e, valor);
+  }
+
+  @Override
   public String toString() {
     return nombre + " (" + clase + ", " + edad + " años)";
   }
 
 
-
-
-
+  private static String textoNoVacio(String valor, String mensaje) {
+    if (valor == null || valor.isBlank()) {
+      throw new IllegalArgumentException(mensaje);
+    }
+    return valor.trim();
+  }
 }
