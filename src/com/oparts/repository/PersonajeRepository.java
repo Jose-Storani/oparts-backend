@@ -14,4 +14,19 @@ public Personaje guardar (Personaje p){
   return p;
 }
 
+public List<Personaje> listarTodos(){
+  return new ArrayList<>(personajes);
+
+}
+
+public Personaje buscarPorId(int id){
+  for(Personaje p: personajes){
+    if(p.getId() == id){
+      return p;
+    }
+  }
+  return null;
+
+}
+
 }
