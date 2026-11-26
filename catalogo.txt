@@ -1,0 +1,546 @@
+# Catálogo de items de O-Parts (BORRADOR generado desde dataItems.js)
+# Separador de campos: ";"  |  Codificación: UTF-8  |  Las líneas que empiezan con # se ignoran
+# Formato de cada línea: CATEGORIA;id;campos propios de la categoría (ver columnas de cada sección)
+# El id es único en TODO el catálogo: no se repite ni siquiera entre categorías distintas
+
+# CYBERPUNK
+# columnas: nombre;descripcion;efecto;rareza;precio
+CYBERPUNK;1;Analizador GeoAmbiental;Dron de reconocimiento;+2 supervivencia, +3 Orientarse. Cargado tiene 1 semana de autonomía. HP 60;B;8000
+CYBERPUNK;2;Uravity doble;Vehiculo;Cápsula flotante que lleva hasta 2 pasajeros a velocidad de un bípedo.Viene con una batería de 1D4+2 TL de carga. Baúl de 9 Slots, resto de los Stats un bípedo;S;29000
+CYBERPUNK;3;Catalizador M.;;Toda persona a 1m o menos de distancia puede compartirle hasta 5MP al usuario para realizar algo (se considera una acción rápida);B;14000
+CYBERPUNK;4;MiKoto Holo Gloves;;Crea a distancia de hasta 5m una copia de neón de tus manos, ideal para manejar a distancia objetos;C;12000
+CYBERPUNK;5;Q-Ribo23;;Pequeño droide redondo que flota al rededor del usuario, tiene 40% de absorver cualquier tipo de ataque mágico, una vez xTL. Si lo hace su dueño tira Suerte, si es menor a 10 Q-Ribo se destruye. Cada usuario puede tener 1 Q-Ribo funcional, encender otro consume un turno completo;S;20000
+CYBERPUNK;6;HOLO Mapper;;Reloj holográfico que mapea una zona. Debe indicarse cuando se activa y cuando se desactiva. Si una zona ya fue mapeada le da al usuario ventaja en orientación;A;11000
+CYBERPUNK;7;MiKoto Cheater;;Tecnomira que se le asigna a un arma (cambiarla a otra es 1TC), con una acción rápida elige un enemigo, hasta que cambie de target tiene +4 en arma distancia contra él;B;16000
+CYBERPUNK;8;Oro sintético;;Pintura para recubrir un item, arma o localización. Si tenés al menos 2 pintadas ganas +1 intimidación. El máximo es 7 partes con un +6 en intimidación;D;6000
+CYBERPUNK;9;Casco de alta prediccion;;Cada TC podés gastar tu acción rápida para analizar un PJ en combate, cada vez que lo hagas ganas un +1, luego lanzas 1d8. Cuando saques 10 en el D8 podés predecir cómo se va a mover ese PJ dándote +4 contra él en todo tipo de combate. 1 vez por día, 1tl de sol para recargar;S;19000
+CYBERPUNK;10;Brazaletes de presión;;Como acción rápida puede empujar un objeto o persona a 5m de distancia. Como luchador a distancia te permite hacer un ataque gratis con desventaja o tú ataque normal con apuntar gratuito;C;12000
+CYBERPUNK;11;Troyan pin;;Pin pequeño que se puede lanzar o colocar sigilosamente sobre un objetivo. Al conectarse con una cyberterminal podés saber hacia dónde está, combinado con Holo Mapper tenés ubicación exacta. Batería 1 semana, luego 1TL sol para cargar;D;7000
+CYBERPUNK;12;Silenciador pistolas pequeña;;1D8 tiros silenciados;C;5000
+CYBERPUNK;13;Silenciador pistolas media;;1D8 tiros silenciados;C;5000
+CYBERPUNK;14;Silenciador pistolas grande;;1D8 tiros silenciados;C;8000
+CYBERPUNK;15;Silenciador pistolas sniper;;1D8 tiros silenciados;C;10000
+CYBERPUNK;16;MiKoto Deep;;Traje de buceo que anula penalizadores bajo el agua y da +10 en Res Amb para la respiración. Se carga con 1TL solar;B;17000
+CYBERPUNK;17;Hombreras gravitacionales;;Al activarse todos los PJS en 15m a la redonda tienen -2 en DES por cada parte de armadura que tengan puesta y -2 por cada 6 Slots de items ocupados. Como acción rápida se pueden quitar 3 partes de armadura o grupos de slots. Cada hombrera tiene 40hp y los daños menores a 35 no le pásan, hay que destruír ambas cortar el efecto. Se carga con 1TL solar;S;22000
+CYBERPUNK;18;Chip de aprendizaje;;Cirugía menor. Aprendizaje +3;B;8000
+CYBERPUNK;19;Chip de percepción;;Cirugía menor. Descubrir +3;B;8000
+CYBERPUNK;20;Chip de pilotaje;;Cirugía menor. Pilotar +3;B;8000
+CYBERPUNK;21;Chip Médico;;Cirugía menor. Médico +3;B;8000
+CYBERPUNK;22;Chip de Linguística;;Cirugía menor. Linguística +3;B;8000
+CYBERPUNK;23;Chip de Tecnología;;Cirugía menor. Tecnología +3;B;8000
+CYBERPUNK;24;Piel sintética;;Cirugía mayor. En la localización elegida los daños menores a 30 no tiran resistencia y amputar es 45;S;16000
+CYBERPUNK;25;HotGun;;Shotgun laser (2 tiros). Distancia Daño 40+1D8/ cerca Daño 40+2D10 / 2 tiros TC (dif a distancia 35 x tiro, cerca 15) / -6 Arma Distancia. 1TC recarga;S;29000
+CYBERPUNK;26;Daga Merodeadora;;Tecnodaga que tras ser esquivada vuelve a atacar al objetivo con los mismos stats. Si el objetivo esquiva ambas la daga vuelve a su usario. DAGA 7 // +8. Si el usuario tiene ¨Chip arma inteligente¨ con una acción rápida puede recuperar 1D4 de estas dagas;A;4000
+CYBERPUNK;27;ChronoZepam;;Píldora que durante 1TL da Ventaja en Coraje y anula efectos de traumas. Tras pasar efecto Stamina -3D4;D;3000
+CYBERPUNK;28;Treachery;;Dron autopilotado con forma de araña. Va dando descargas eléctricas que quitan 1D8 mp TC. Esquivar/Aprezar 25, HP 30. Al vaciar a un PJ se baja y busca otro;A;18000
+CYBERPUNK;29;NaNosangre;;Consumible. Los próximos 5TC regenera 1D4+1 de HP. Luego -1D10 de stamina;B;5000
+CYBERPUNK;30;Mira laser;;Anula penalizadores de Arma Dist hasta 8pts. No mejora la tirada, solo cancela penalizadores por distancia, apuntar o manejo de arma, no aplica en Ráfaga. Cambiar de un arma a otra es 1 TC completo;C;9000
+CYBERPUNK;31;Granada magnética;;Requiere chip de arma inteligente. El usuario designa un target y lanza la granada con +7 en Lanzar. Daño 40+4D8;B;9000
+CYBERPUNK;32;Respiradero;;Máscara que da +4 en Res Amb si se trata de algún veneno respirable;B;6000
+CYBERPUNK;33;Batería Uravity;;Batería para Uravity Doble. Tiene carga para 1D4+2 TL, luego se vuelve inútil. Ocupa 3 Slots;D;6000
+CYBERPUNK;34;MiKoto Muse;;Computadora de muñeca holográfica multimedial. Artístico +4;B;9000
+CYBERPUNK;35;Neural Dysk;;Cirugía menor para chip de control mental. Dos discos que flotan ayudándote en varias tareas: Trepar, Esquivar, Atletismo +3. Distraer a un rival -3. 30hp c/u, tienen un esquivar de 25. Usarlas para un comando es una acción gratuita x TC;A;16000
+CYBERPUNK;36;Elektrodive;;Par de guantes eléctricos con 4 cargas, Daño +2d8. Al declarar PELEA puede decidir usar una de estas cargas, si golpea al objetivo lo deja en Desventaja por (30-res amb) cada 3/1TC. 1TL solar da una carga;A;19000
+CYBERPUNK;37;Falcon Mk7;;Ave robótica que ayuda a analizar terrenos. Supervivencia +3. 1 TL de carga para usarla 2TL;C;9000
+CYBERPUNK;38;Mochila sonica;;Al encenderla emite onda sonoras que perturban a todos rn 10m. Tiran res amb vs 50, cada 5 de diferencia -1 en todo. Duración 2d6 Tc. 1TL carga solar;B;14000
+CYBERPUNK;39;Shuriken Cierra;;Shuriken gigante que se LANZA -3, si golpea hace el daño de Lanzar +3D6, los D6 impares se suman y se vuelven a tirar hasta que no salgan más.;B;20000
+CYBERPUNK;40;Flechas de Neon;;Pack de 4 flechas que ignoran armaduras físicas. Si el usuario tiene `Chip arma inteligente` con una acción rápida puede recuperar 1D4 de estas flechas;C;9000
+CYBERPUNK;41;Armor sónica Brazo Derecho;;(reduce todo daño no mágico en 20%) y después aplica -6 de daño.;B;7000
+CYBERPUNK;42;Armor sónica Brazo Izquierdo;;(reduce todo daño no mágico en 20%) y después aplica -6 de daño.;B;7000
+CYBERPUNK;43;Armor sónica casco;;(reduce todo daño no mágico en 20%) y después aplica -6 de daño.;S;7000
+CYBERPUNK;44;Armor sónica Pecho;;(reduce todo daño no mágico en 20%) y después aplica -6 de daño.;A;7000
+CYBERPUNK;45;Armor sónica Pierna Izquierda;;(reduce todo daño no mágico en 20%) y después aplica -6 de daño.;B;7000
+CYBERPUNK;46;Armor sónica Pierna Derecha;;(reduce todo daño no mágico en 20%) y después aplica -6 de daño.;B;7000
+CYBERPUNK;47;Astra Style-36;Pistola Ligera 6 balas;Daño 25+2D4 / 2 ros TC (dificultad 15 x ro) / +3 Arma DIstancia;D;3000
+CYBERPUNK;48;Avenger;Pistola Media 8 balas;Daño 30+2D4 / 2 ros TC (dificultad 12 x ro) / +2 Arma DIstancia;C;8000
+CYBERPUNK;49;BioHormonal;Perfume;Durante 1TL +6 seducir;C;700
+CYBERPUNK;50;Bomba de humo;;Permite el sigilo en un radio de 5M.;D;2000
+CYBERPUNK;51;Bomba de luz;;Los cercanos que la vean sufren una penalización en movimientos de -1D10 (cada uno ra el suyo) por 1D3 tc.;D;4500
+CYBERPUNK;52;Chadran Jungle Reaper;Ametralladora Pesada (30 balas);Daño 38+2D10 / 3 ros TC (dificultad 25 x ro) / -3 Arma Distancia /Ráfaga 1D20;S;23000
+CYBERPUNK;53;Collar de detención;Genera Descargas;;;9000
+CYBERPUNK;54;Combat Magnun;Pistola Media (6 balas);;;11000
+CYBERPUNK;55;Cyber Arco;;;;13000
+CYBERPUNK;56;Cinturon AntiG;;(+2 DES) x 1D8+1 TC. Para volver usarse debe tener contacto con el sol 1TL.;B;13000
+CYBERPUNK;57;Chip arma inteligente;Ayuda a la precisión;Arma Dist +3, requiere una cirugía leve;C;8000
+CYBERPUNK;58;Columna de Neon;;Posee 4 slots para diferentes Alquimias y con un pensamiento el usuario se aplica las que desee en medio turno. Son muy llamativas y con un golpe las rompen. Requiere cirugía mayor;A;15000
+CYBERPUNK;59;Constitution Deluge;Lanza Granadas (8 granadas);Daño 45+3D6 / 1 ro TC (dificultad 40 daño %100, 35 %75 daño, 30 50% daño, 25 25% daño) / -3 Arma Distancia;S;29000
+CYBERPUNK;60;Cyber Esqueleto;1D8 para ver la parte, si 8 elige;Armor +10 la parte y suma +1D8 FUE. Si de un golpe le hacen 40p revienta. Destrezas -1;S;13000
+CYBERPUNK;61;Cyber látigo;Látigo disparado de muñeca;Dispara a Lanzar +5, FUE 35p;B;9000
+CYBERPUNK;62;Cyber Mano;Mano muluso;FUE +3D, ene lintena, 5 ros de 30+2D6, 5 dedos bomba (30+6D6), aerosol paralizante (-10 mov x 1D3 tc), Ganzúa (+3 abrir cerradura);B;22000
+CYBERPUNK;63;Cyber Terminal;Medio de comunicación;Conecta con otras cyberterminales en un radio de 100-150 km. Cargada ene 1tl de autonomía;C;11000
+CYBERPUNK;64;CyberCam EX3;Analiza en vivo al enemigo;Cada turno que hayas pasado combaendo contra un rival te da a dar un bonificador de (+1D3) en atacar o esquivar. Max +6. HP=50;S;22000
+CYBERPUNK;65;CyberConmocion;;Al recibir 20 o más puntos de daño suelta una descarga eléctrica que causa 5d8 a todos en un radio de 3x3 metros, solo una vez por día. Requiere cirugía mayor;A;16000
+CYBERPUNK;66;Cyberimplante Brazo Izq;;80hp, ra suerte vs DM. C/3+ ene una mejora al azar. Consultar: mejoras automail abajo;A;15000
+# REVISAR (duplicado exacto de otro item de la misma categoría): CYBERPUNK;Cyberimplante Brazo Izq;;80hp, ra suerte vs DM. C/3+ ene una mejora al azar. Consultar: mejoras automail abajo;A;15000
+CYBERPUNK;67;Cyberimplante Brazo Der;;80hp, ra suerte vs DM. C/3+ ene una mejora al azar. Consultar: mejoras automail abajo;A;15000
+CYBERPUNK;68;Cyberimplante Pierna Izq;;80hp, ra suerte vs DM. C/3+ ene una mejora al azar. Consultar: mejoras automail abajo;A;15000
+# REVISAR (duplicado exacto de otro item de la misma categoría): CYBERPUNK;Cyberimplante Pierna Izq;;80hp, ra suerte vs DM. C/3+ ene una mejora al azar. Consultar: mejoras automail abajo;A;15000
+CYBERPUNK;69;Cybrer Escudo Retractil;;Ocupa T1, se despliega desde un brazo, da +3 al bloqueo y ene 80Hp, que se pueden ir regenerando con Reparar 30 10hp con 50 de chatarra.;A;12000
+CYBERPUNK;70;Czar Skorpion;Ametralladora ligera (25 balas);Daño 25+2D4 / 4 ros TC (dificultad 15 x ro) / +3 Arma DIstancia/ Ráfaga 1D20+6;A;19000
+CYBERPUNK;71;Daga de Neon;;(el filo vibra, al cortar traspasa cualquier armaduras ignorando su bonif, a las 3 veces que golpea en la misma parte derrite el armor) 7 // +7 // 200hp // Bonif +2 //;B;4500
+CYBERPUNK;72;Dai Lung Cybermag;Pistola Ligera (9 balas);Daño 30+2D4 / 2 ros TC (dificultad 18 x ro) / +2 Arma Distancia;C;6000
+CYBERPUNK;73;Detector de radiación/enfermedades;;Disposivo autónomo solar (conque 1TL le de sol funciona todo el día) que avisa los porcentajes de enfermedades o radiaciones cercanos, configurable para que suene alertando o no haga ningún ruido para mayor discreción. Pequeña pantalla usualmente en el antebrazo.;C;7000
+CYBERPUNK;74;Droide Médico;;Medicina +8 o puede cargarse hasta con 30% de boquín y curar con una rada de 20. (es más lento que una persona, 3TC una curación rápida).;A;12000
+CYBERPUNK;75;Drug Dealer;Implante de uso único;Cuando caes inconciente por HP te cura 4D6, +3 Fortaleza, +2 Destreza por 1D4+2 tc. Luego perdés 1 Espíritu;A;6000
+CYBERPUNK;76;Espada de Neon;;(el filo vibra, al cortar traspasa cualquier armaduras ignorando su bonif, a las 3 veces que golpea en la misma parte derrite el armor) 12 // +11 // 70hp // Bonif +4 //;A;9500
+CYBERPUNK;77;FlashHand;Luz aturdidora bajo muñeca;Los cercanos que la vean sufren una penalización en movimientos de -1D10 (cada uno ra el suyo) por 1D3 tc;D;5000
+CYBERPUNK;78;Founder 90001;Rastreador tecnológico;Encuentra CUALQUIER item CP en 10m a la redonda (si por alguna razón mágica está oculto no). 2 turnos quieto;D;10000
+CYBERPUNK;79;Granada;;Explosión 40+3D6;B;4500
+CYBERPUNK;80;Granada de pulso;;Toda la tecnología CP deja de funcionar en un radio de 5M, durante 1D4+1 TC;A;6500
+CYBERPUNK;81;Guadaña de Neon;;(el filo vibra, al cortar traspasa cualquier armadura no mágica ignorando su bonif, a las 3 veces que golpea en la misma parte derrite el armor) 10 // +11 // 330hp // Bonif +4 //;S;14000
+CYBERPUNK;82;Hacha de Neon;;(el filo vibra, al cortar traspasa cualquier armaduras ignorando su bonif, a las 3 veces que golpea en la misma parte derrite el armor) 12 // +14 // 400hp // Bonif +2 /;A;11000
+CYBERPUNK;83;Hammer FIST;Módulo de ataque propulsado;Carga 1tc, el próximo golpe a mano limpia tendrá +4 Pelea +8D6 daño. HP=40;C;14000
+CYBERPUNK;84;HeadGear;Casco para hackear;Tiradas tecnológicas +4, +8pt RES;B;9000
+CYBERPUNK;85;Heavy SMG;Ametralladora Media (30 balas);Daño 30+1D10 / 4 ros TC (dificultad 20 x ro) / -1 Arma Distancia /Ráfaga 2D20;A;21000
+CYBERPUNK;86;Holo Academycs;Sistema holográfico aprendizaje;Se puede usar en party. +3 Aprendizaje, +3 Enseñanza. Cargado ene 1tl de autonomía;C;10000
+CYBERPUNK;87;Holo Clothes;Ocupa 1 equipamiento magic;Los cambios de temperatura te afectan 50% menos. Tenés 40% de que Alquimias y enferemedades no te afecten.;B;14000
+CYBERPUNK;88;Holo Proyector;Crea una pantalla holográfica;Crea una copia holográfica tuya para evitar un ataque sorpresivo.;C;2000
+CYBERPUNK;89;Hydro Subsidium;Traje de buzo avanzado;Puede soportar profundidades alsimas, fríos bajos y hasta un TL sin salir a la superficie;B;15000
+CYBERPUNK;90;Infrareloj Datatel;Localiza cosas;Siempre que res por LOOT hacé 2 radas y quedate con tu favorita;A;7000
+CYBERPUNK;91;Kan-Eda 4cm Rail Cannon;Rifle Láser (1 Tiro);Daño 50+2D10 / rayo constante permite re lanzar con -6 (+2xlvl) para golpear otra parte u otro PJ / -4 Arma distancia / 1 TC recargar disparos;S;33000
+CYBERPUNK;92;Lanza de Neon;;13 // +15 // 80hp // Bonif +4 // al cortar traspasa cualquier armadura no mágica;S;12000
+CYBERPUNK;93;Latom Shin-RA;Lanzallamas (1D4+3 TC);Daño 20+2D6 / Este daño va a 1D6 locaciones al mismo empo/ 50% de prolongarse otro TC, -20% por c/TC que pase /-3 Arma Dist.;A;20000
+CYBERPUNK;94;Lector de magia agresiva (lentes);;Le permite al usuario ver los efectos invisibles y tratar de esquivarlos;S;11000
+CYBERPUNK;95;Log Pose;;Set de 2 Brújulas digitales con diseño de Radar, cada una marca hacia dónde está la otra. Disposivo autónomo solar (conque 1TL le de sol funciona todo el día);A;7000
+CYBERPUNK;96;MedicGear Abs+Pecho;Armadura médica;Armor +7, Médico +1. Si de un golpe le hacen 35p revienta;S;10000
+CYBERPUNK;97;MedicGear Brazos;Armadura médica;Armor +7, Médico +1. Si de un golpe le hacen 35p revienta;A;10000
+CYBERPUNK;98;MedicGear Casco;Armadura médica;Armor +7, Médico +1. Si de un golpe le hacen 35p revienta;A;6000
+CYBERPUNK;99;MedicGear Piernas;Armadura médica;Armor +7, Médico +1. Si de un golpe le hacen 35p revienta;A;10000
+CYBERPUNK;100;Meta Warhammer;Shotgun (8 balas);Distancia Daño 35+1D12/ cerca Daño 35+2D12 / 2 ros TC (dif a distancia 35 x ro, cerca 15) / -5 Arma Distancia;S;25000
+CYBERPUNK;101;MiKoto Casco Omega;;Casco al que se le pueden comprar chips de mejoras en cualquier mercader, da +6 a RES si se rompe de golpes los upgrades se salvan, tirada de Tecnología 20. UPGRADES: $4000. NightVision $5000 // Purificador de aire $6000 // Percibir +3 $8000 // Rastrear +4 $8000 // Senr magia +3 $8000 //Reconocimiento de Bountys por rostro $5000 // Análisis facial Empáco +3 $8000 // Filmación úlmos 15 min $6000 // Apertura sombrilla para evitar lluvias $3000 // Tasación +4 $7000 // Nulifica el efecto de las bombas de humo o luz $5000;S;8000
+CYBERPUNK;102;MiKoto Chip;Detector de mentiras;Empático +4;A;8000
+CYBERPUNK;103;MiKoto Controlador;;Brazalete autónomo solar (conque 1TL le de sol funciona todo el día) que controla las pulsaciones y ritmos cardíacos. Cuando el usario se altera le dá una pequeña descarga de 1Hp en cada parte del cuerpo y le permite rar autocontrol+8 para calmarse;C;6000
+CYBERPUNK;104;MiKoto HoloLens;;Permite marcar a un objevo y da Descubrir +5 para encontrarlo si se esconde o mueve. Nulifica el efecto de las bombas de humo o luz.;A;8300
+CYBERPUNK;105;MiKoto Ignis;;Ideal para viajeros, un droide que una vez al día cocina o te ayuda a cocinar con +8 en el tipo de comida que desees, es a energía solar;B;9000
+CYBERPUNK;106;MiKoto Opcs;Ojos ampliados;Esquivar +1, Descubrir +3, Conducir +2, Lanzar +2, Magia -6. Requiere una operación media (un solo ojo no tiene efectos, todo da +1 por LVL usuario);A;15000
+CYBERPUNK;107;MiKoto Scanner;Lector de ondas mágicas;Magia +2, sabe qué % consume cada O-Part tras verla, intenta explicar lo que hace un O-Part en una palabra (3 usos diarios);A;13000
+CYBERPUNK;108;MiKoto shield;;Ocupa T5, da +7 al bloqueo, -2 Destreza, y tiene 110Hp, que se pueden ir regenerando con Reparar 30 10hp con 70 de chatarra. Los daños por disparos de 34 o menos simplemente no pasan. Se puede Lanzar con Mínimo de FUE 8 y suma +10 de daño lanzar, como tiene giroscopio y estabilizador puede volver o quedarse de pie para servir como cobertura en un roteo. Como uso único se puede activar su autodetonación de 0 a 15 segundos explotando en un daño de área de 40+3D8.;S;16000
+CYBERPUNK;109;Militech M97;Camuflaje óptico fullbody;Mientras estés inmóvil +12 Sigilo, en movimiento VENTAJA;S;19000
+CYBERPUNK;110;Mochila electromagnéca;;Si llevás esto no podés tener mochilas con slots. Cuando detecta disparos de armas te da +8 en Esquivar. Dura 1TL por día.;A;17000
+CYBERPUNK;111;MonoVision;Implante óptico 180°;Ignora aturdimientos visuales, +4 descubrir, +4 alerta, +3 pilotar, -4 magia, +1 inmidar. Cirugía menor;C;13000
+CYBERPUNK;112;Muñequera afilada;;Daño +3D6 solo con PELEA;C;6000
+CYBERPUNK;113;Muñequera Mortal;Vibra (3 veces x día);Daño +3D6 solo con PELEA / se puede gastar una carga para sumar +2D10 daño;A;12000
+CYBERPUNK;114;Mustang Arms Mark II;Pistola Pesada (13 balas);Daño 30+2D6 / 3 ros TC (dificultad 11 x ro) / -2 Arma Distancia;A;13000
+CYBERPUNK;115;Nano Feromonas x8;;C/píldora +3 Seductor. En el acto sexual todas tus radas aumentan 70%. Autocontrol 20 para no generar adicción, a las 3 fallas gana el defecto de adicto;C;3000
+CYBERPUNK;116;Nano Gear;Armadura fullbody;Armor+6 en c/parte. Un golpe de 30p lo revienta. C/parte Puede volverse transparente;S;20000
+CYBERPUNK;117;Neuro C4;Explosivos a distancia;Plantá C4 y dinamitá con el pensamiento. Daño 40+6D6;B;11000
+CYBERPUNK;118;Nova 757 Cityhunter;Pistola Pesada (6 balas);Daño 30+3D6 / 2 ros TC (dificultad 17 x ro) / -2 Arma Distancia;B;11000
+CYBERPUNK;119;Nutrisuplemento;Alimento por 24hs;Te manene perfectamente hidratado, con grasas y calores adicionales. Tirar Res Veneno, si pifia te desmayás por 1TL;D;1500
+CYBERPUNK;120;Ojo Remoto;Ojo espía;Tiene Sigilo 40. Recibís la transmisión AV a una CyberTerminal. Si tenés Remote Gear puede desplazarse con Atletismo 20;C;2000
+CYBERPUNK;121;Panel solar;Ideal para vehículos;1 panel da energía a un vehículo pequeño (o dos items chicos), 2 paneles a un tanque de criogenia. Al primer golpe se rompe;D;4000
+CYBERPUNK;122;Pies Magnéticos;;Permite caminar o correr sobre superficies metálicas, mediante una cirugía leve;D;3000
+CYBERPUNK;123;Pies Rollers;;Atletismo +3;D;7000
+CYBERPUNK;124;Pistolera;Espacio extra para 1 pistola;Se puede ubicar en cualquier extremidad, mediante una cirugía leve;D;4000
+CYBERPUNK;125;Procesador de Lenguaje;Interpreta por vos;Linguisca x2 (antes de rar el dado y sin aplicar espíritu o voluntad);D;6000
+CYBERPUNK;126;Remington Gyro-Rifle;Sniper (6 balas;Daño 35+2D6 / 2 tiros TC (dificultad 30 x tiro) / -4 Arma Dist (moviendose) / +4 Arma Distancia (quieto) / anula negativos x dist hasta -10;S;30000
+CYBERPUNK;127;Remote Gear;Maneja cyber items a distancia;Controla cosas hackeadas. Una vez por mes +1 Espíritu si usás 1TL para jugar;D;18000
+CYBERPUNK;128;Ruger MKII;Pistola Ligera (13 balas);Daño 25+2D6 / 2 ros TC (dificultad 15 x tiro) / +1 Arma DIstancia;D;4000
+CYBERPUNK;129;S&W Handcannon;Pistola Pesada (2 balas);Daño 40+2D10 / 2 ros TC (dificultad 25 x ro) / -4 Arma Distancia;A;15000
+CYBERPUNK;130;Sonic Shield;;Ocupa T3, da +5 al bloqueo, -1 Destreza, reduce el daño no mágico en un 20% y ene 90Hp, que se pueden ir regenerando con Reparar 30 10hp con 90 de chatarra.;A;14000
+CYBERPUNK;131;Stolbovoy;Pistola Media (14 balas);Daño 30+2D6 / 3 ros TC (dificultad 14 x ro) / -2 Arma Distancia;B;9000
+CYBERPUNK;132;Tech Raven;Soporte para Técnicos;Reparar/Construír +5, Tecnológico +3, Pilotar +2, Conducir +2;B;14000
+CYBERPUNK;133;Techno Katana 2B;Katana Autónoma;Como Katana normal 11 // +14 / Si tenés CHIP ARMA INTELIGENTE: Ataca por su cuenta emulando LANZAR y puede ocupar T0 en inventario;S;24000
+CYBERPUNK;134;Tecnoestabilizador;Inyector y estabilizador;Cura 5HP al instante, Médico +3. $500 recarga;B;8000
+CYBERPUNK;135;TeknoBird;;Ocupan T2, permite desplazarse a gran altura y velocidad volando todo un TL, requiere 2TL solares para cargarse. Avanza el triple que si fuera 1TL en auto. Si se usan en combate dan -7 en DES, pero se puede ganar mucha altura o ulizar para escapar;S;8000
+CYBERPUNK;136;Torreta solar (1TL;;Viene sin arma, se le puede montar la que gustes. Tiene 80hp, sigilo 18pts , Arma distancia 25pts. Se le pueden cargar figuras aliadas para que no ataque.;C;8000
+CYBERPUNK;137;Trauma Abdomen;;-9 daño, +1 medicina, cada dos partes - 1 DES;S;8000
+CYBERPUNK;138;Trauma brazo der;;-9 daño, +1 medicina, cada dos partes - 1 DES;S;8000
+CYBERPUNK;139;Trauma brazo izq;;-9 daño, +1 medicina, cada dos partes - 1 DES;S;8000
+CYBERPUNK;140;Trauma casco;;-9 daño, +1 medicina, cada dos partes - 1 DES;S;8000
+CYBERPUNK;141;Trauma Pecho;;-9 daño, +1 medicina, cada dos partes - 1 DES;S;8000
+CYBERPUNK;142;Trauma pierna izq;;-9 daño, +1 medicina, cada dos partes - 1 DES;S;8000
+CYBERPUNK;143;Trauma pierna der;;-9 daño, +1 medicina, cada dos partes - 1 DES;S;8000
+CYBERPUNK;144;Tsunami Arms Ramjet;Rifle de energía (1D4 disparos);Daño 40+1D12 / rayo constante permite re tirar con -6 (+2 x lvl) para golpear otra parte u otro PJ / +2 Arma distancia / 1 TC recargar disparos;S;27000
+CYBERPUNK;145;Tubo de Criogenia;;Mientras esté conectado mantiene vivo algo dentro. Cargada tiene 2tl de autonomía;S;12000
+CYBERPUNK;146;Visor OpTech;Binoculares;Hasta 1500m. Infrarrojo;D;6000
+
+# STEAMPUNK
+# columnas: nombre;descripcion;efecto;rareza;precio
+STEAMPUNK;147;Armor Brazo Izquierdo;;armor 3, a los 20 golpe se rompe;;900
+STEAMPUNK;148;Armor Brazo Derecho;;armor 3, a los 20 golpe se rompe;;900
+STEAMPUNK;149;Armor Pierna Izquierda;;armor 3, a los 20 golpe se rompe;;1000
+STEAMPUNK;150;Armor Pierna Derecha;;armor 3, a los 20 golpe se rompe;;1000
+STEAMPUNK;151;Armor Pecho;;-6 daño - resiste 3 golpes;;1200
+STEAMPUNK;152;Armor Abdomen;;-5 daño - resiste 5 golpes;;1200
+STEAMPUNK;153;Armor Cabeza;;-5 daño - resiste 5 golpes;;1300
+STEAMPUNK;154;Brazalete duerme (uso único);;38pt autocontrol o se duerme;;7500
+STEAMPUNK;155;Bobina electrica;;pared electrica invisible 60daño;;8750
+STEAMPUNK;156;Pistola de onda (alcance corto);;10D6 daño, lanza al enemigo;;6875
+STEAMPUNK;157;Mina (terrestre y sopapa a la ropa);;5D10 sin resistencia;;1875
+STEAMPUNK;158;Antares paralizante (usa pelea);;20 vs Res Amb. paraliza miembro. 3 usos totales. C/tc que pasa aumenta 5 la dificultad del veneno. Dura 1D10+3 turnos;;8750
+STEAMPUNK;159;Insecto espia;;35 sigilo, graba audio;;1250
+STEAMPUNK;160;Pistola de rayos anulador;;Anula 1D10 turnos si pega;;15625
+STEAMPUNK;161;Potenciador a vapor;;+3D fuerza (sin limites) +3PELEA;;13750
+STEAMPUNK;162;Receptor auditivo (+1D percep);;Puede recibir señales de radio;;7500
+STEAMPUNK;163;Corruptor de maquinaria;;tecno vs tecno creador 3 veces;;10000
+STEAMPUNK;164;Los conocimientos de Tim Baker;;Si puede leer +3 en tecno y rep;;8125
+STEAMPUNK;165;Camara de fotos con 1 bombita;;1D6 fotos restantes;;688
+STEAMPUNK;166;Insecto mecanico de Luddmer;;Graba sonidos, sigilo 11D6;;2125
+STEAMPUNK;167;Caminante a vapor;;+3 Destreza (s/limit);;13750
+STEAMPUNK;168;Revolver Samael (2 tiros por turno;;4 balas x cartucho, 3D8 + 35pt daño c/u;;10000
+STEAMPUNK;169;The unnatural selector (atk area);;5D6 sin resistencia en 4x4m;;11250
+STEAMPUNK;170;Dado del sueño (area);;30 vs autoc. Para dormir;;8750
+STEAMPUNK;171;Jetpack (Tecno 35 para usar);;Atlet 40 para usar con una mano;;11875
+STEAMPUNK;172;Automail (miembro al azar);;Fue de 1 a 5D, Res de 30 a 70pt;;10000
+STEAMPUNK;173;Cacharro;;Piezas revendibles x 1D10 $50;;
+
+# ARMA (armas básicas)
+# columnas: nombre;tipo;dificultad;dano (texto: "8" o "25 + 2D6");durabilidad;penalizacion;precio
+ARMA;174;Daga Toledo;T1;5;9;60;-3;500
+# REVISAR (dificultad no numérica ("Dificultad: infinto")): ARMA;probando agregar Imte;T2;Dificultad: infinto;Daño: +9;HP: 60;-3;500
+ARMA;175;Daga Adiosrubia;T1;8;7;65;-1;300
+ARMA;176;Daga Sastaguino;T1;7;8;65;-2;900
+ARMA;177;Cuchillo Manchego;T1;6;9;70;-1;900
+ARMA;178;Espada Viking;T2;9;11;70;-4;1200
+ARMA;179;Florete;T1;9;9;65;-5;1300
+ARMA;180;Espada Yatagán;T1;8;12;70;-4;2000
+ARMA;181;Espada Kopesh;T2;10;13;75;-3;2300
+ARMA;182;Katana;T2;11;14;80;-5;2200
+ARMA;183;Hacha Plana;T3;10;12;80;-4;3000
+ARMA;184;Hacha Plana Doble;T3;10;13;85;-5;3700
+ARMA;185;Hacha de guerra;T3;12;15;90;-4;3900
+ARMA;186;Alabarda;T3;11;14;75;-5;4000
+ARMA;187;Lanza Corcesca;T3;12;16;75;-4;4500
+ARMA;188;Lanza Bisento;T3;13;15;80;-6;6000
+ARMA;189;Guadaña;T3;11;14;70;-4;5000
+ARMA;190;Guadaña Triple Filo;T3;11;17;75;-4;5500
+ARMA;191;Arco/ flechas (1D12);T2;12;25 + 2D6;70;-2;2500
+ARMA;192;Ballesta;T2;12;25 + 3D6;65;-4;3500
+ARMA;193;Ballesta de Zhuge;T3;10;25 + 2D6;70;-5;4500
+
+# MAGICO
+# columnas: nombre;descripcion;efecto;precio
+MAGICO;194;Anillo;-1pt gasto MP;Máximo descuento por turno 1mp C/5 Percibir +Magia (cada anillo max descuenta 1mp, esto es con varios);12500
+MAGICO;195;Anillo;+1D6 Fuerza C/1MP;Máx aplicable 1D6 c/7 en Res mental;15000
+MAGICO;196;Anillo;+1D6 Resist C/1MP;Máx aplicable 1D6 c/7 en Res mental;15000
+MAGICO;197;Anillo;+ 1pt Suerte;Max 5;11250
+MAGICO;198;Anillo;Anillo Mejora de Afinidad;C/1MP - 1 AFIN al costo de una opart por 1TL, Máx aplicable 1 c/7 en Res mental;11250
+MAGICO;199;Anillo;Teletransportador;5MP x C/PJ;16250
+MAGICO;200;Anillo;10% Reflejo;Max 150%;11250
+MAGICO;201;Anillo;Cura 20HP;Gasta 10MP;9375
+MAGICO;202;Anillo;C/7Hp perdidos gana 1MP;Acumulable;8750
+MAGICO;203;Anillo;-5pt dific. apuntar;Acumulable;10000
+MAGICO;204;Anillo;25 o - HP, da doble turno;Si te sacaron de 75 a 99 hp tenés doble turno constante;11875
+MAGICO;205;Anillo;Al perder todos los HP queda en 1;-2 Espíritu;10625
+MAGICO;206;Sombrero/Bandana/Pañuelo;+1 en un atributo Social;tira al azar entre Carisma, manipulación y astucia;13750
+MAGICO;207;Sombrero/Bandana/Pañuelo;+1 en un atributo Mental;tira al azar entre inteligencia, saber y percibi;13750
+MAGICO;208;Sombrero/Bandana/Pañuelo;10% Reflejo;Max 150%;11250
+MAGICO;209;Sombrero/Bandana/Pañuelo;-5pt dific. apuntar;Acumulable;10000
+MAGICO;210;Sombrero/Bandana/Pañuelo;+1D6 pt de voluntad al ganar combate;No acumulable;10000
+MAGICO;211;Sombrero/Bandana/Pañuelo;25% de ganar 1 espíritu al ganar un combate;Acumulable hasta 75%;10000
+MAGICO;212;Guantes;;+1 en Astucia;13750
+MAGICO;213;Guantes;;+1 en Fuerza;13750
+MAGICO;214;Guantes;10% Reflejo;Max 150%;11250
+MAGICO;215;Guantes;C/7Hp perdidos gana 1MP;Acumulable;8750
+MAGICO;216;Guantes;;+3 en Bloquear;11250
+MAGICO;217;Guantes;;+3 en Robar;11250
+MAGICO;218;Remera/Camisa;+1D4 C/V que gane XP;Acumulable;13750
+MAGICO;219;Remera/Camisa;25% de ganar 1 espíritu al ganar un combate;Acumulable hasta 75%;10000
+MAGICO;220;Remera/Camisa;10% reflejo;Max 150%;11250
+MAGICO;221;Remera/Camisa;+ 1pt Suerte;Max 5;11250
+MAGICO;222;Remera/Camisa;Anula bonif daño pecho/abdomen;;13750
+MAGICO;223;Remera/Camisa;Regenera 1HP y MP x C/asesinato;Acumulable;12500
+MAGICO;224;Capa/Campera/Saco;+3 tiradas liderazgo;Acumulable;11250
+MAGICO;225;Capa/Campera/Saco;+3 tiradas intimidación;Acumulable;11250
+MAGICO;226;Capa/Campera/Saco;10 % reflejo;Max 150%;11250
+MAGICO;227;Capa/Campera/Saco;25 o - HP, da doble turno;Si te sacaron de 75 a 99 hp tenés doble turno constante;11875
+MAGICO;228;Capa/Campera/Saco;;Anula bonif daño pecho/abdomen;13750
+MAGICO;229;Capa/Campera/Saco;Regenera 1HP y MP x C/asesinato;acumulable;12500
+MAGICO;230;Pantalon/Pollera;+1 en un atributo Social;tira al azar entre Carisma, Manipulación y Astucia;13750
+MAGICO;231;Pantalon/Pollera;+1 en un atributo Mental;Tira al azar entre inteligencia, saber y percibir;13750
+MAGICO;232;Pantalon/Pollera;10% Reflejo;Max 150%;11250
+MAGICO;233;Pantalon/Pollera;;+1 en Destreza;13750
+MAGICO;234;Pantalon/Pollera;+ 3 tiradas de Liderazgo;Acumulable;11250
+MAGICO;235;Pantalon/Pollera;+3 Tiradas de Intimidación;Acumulable;11250
+MAGICO;236;Botas/Zapatos;;+1 en Astucia;13750
+MAGICO;237;Botas/Zapatos;;+1 en Destreza;13750
+MAGICO;238;Botas/Zapatos;10% reflejo;Max 150%;11250
+MAGICO;239;Botas/Zapatos;Teletransportador;5MP x C/PJ;12500
+MAGICO;240;Botas/Zapatos;+1pt Suerte;Max 5;11250
+MAGICO;241;Botas/Zapatos;;+1 en Voluntad;13750
+MAGICO;242;Cadena/Collar;+ 1pt Suerte;Max 5;11250
+MAGICO;243;Cadena/Collar;;+ 1 en Carisma;13750
+MAGICO;244;Cadena/Collar;10% Reflejo;Max 150%;11250
+MAGICO;245;Cadena/Collar;+1 en Manipulación;;13750
+MAGICO;246;Cadena/Collar;Al perder todos los HP queda en 1;-2 Espíritu;10625
+MAGICO;247;Cadena/Collar;;+1 en Voluntad;13750
+MAGICO;248;Aretes;;+1 en Carisma;13750
+MAGICO;249;Aretes;+ 1pt Suerte;Max 5;11250
+MAGICO;250;Aretes;10% Reflejo;Max 150%;11250
+MAGICO;251;Aretes;Cura 10HP;Gasta 10MP;9375
+MAGICO;252;Aretes;Al perder todos los HP queda en 1;-2 Espíritu;10625
+MAGICO;253;Aretes;C/10Hp perdidos gana 1MP;Acumulable;8750
+MAGICO;254;Parche;+1D4 C/V que gane XP;Acumulable;13750
+MAGICO;255;Parche;+1 en Suerte;Max 5;11250
+MAGICO;256;Parche;10% reflejo;Max 150%;11250
+MAGICO;257;Parche;;+1 en Voluntad;13750
+MAGICO;258;Parche;+3 tiradas de Liderazgo;Acumulable;11250
+MAGICO;259;Parche;-5pt dificultad apuntar;Acumulable;10000
+MAGICO;260;Brazalete/Amuleto;+1D6 Fuerza C/1MP;Máx aplicable 1D6 c/7 en Res mental;10000
+MAGICO;261;Brazalete/Amuleto;+ 1pt Suerte;Max 5;11250
+MAGICO;262;Brazalete/Amuleto;10% Reflejo;Max 150%;11250
+MAGICO;263;Brazalete/Amuleto;;+1 en Astucia;13750
+MAGICO;264;Brazalete/Amuleto;-5pt dific. apuntar;Acumulable;8750
+MAGICO;265;Upgrades;+1D6 Reparaciones;Se tira el dado después del D20 y se suma. No acumulable;8000
+MAGICO;266;Upgrades;+1D6 Medicina;Se tira el dado después del D20 y se suma. No acumulable;8000
+MAGICO;267;Upgrades;+1D6 Ciencias;Se tira el dado después del D20 y se suma. No acumulable;8000
+MAGICO;268;Upgrades;+1D6 Expresión Artística;Se tira el dado después del D20 y se suma. No acumulable;8000
+MAGICO;269;Upgrades;+1D6 Orientación;Se tira el dado después del D20 y se suma. No acumulable;8000
+MAGICO;270;Upgrades;+1D6 Lingüística;Se tira el dado después del D20 y se suma. No acumulable;8000
+
+# OPART
+# columnas: nombre;descripcion;efecto;rareza;precio;afinidad;costoMP;rango (afinidad, costoMP y rango no existen en el JS: quedan vacíos)
+OPART;271;O-Part;Control agua;;;18000;;;
+OPART;272;O-Part;Control fuego;;;20000;;;
+OPART;273;O-Part;Control tierra;;;19000;;;
+OPART;274;O-Part;Control electric;;;20000;;;
+OPART;275;O-Part;Control aire;;;22000;;;
+OPART;276;O-Part;Control humano;;;21000;;;
+OPART;277;O-Part;Aumento Manipulacion +;;;18000;;;
+OPART;278;O-Part;Pistola Elemental;;;19000;;;
+OPART;279;O-Part;Pistola Energia;;;18000;;;
+OPART;280;O-Part;Arco Elemental;;;20000;;;
+OPART;281;O-Part;Arco energía;;;20000;;;
+OPART;282;O-Part;Ácido;;;22000;;;
+OPART;283;O-Part;Control de Gravedad;;;25000;;;
+OPART;284;O-Part;Predicción;;;20000;;;
+OPART;285;O-Part;Duplicar objeto;;;22000;;;
+OPART;286;O-Part;Ver el pasado;;;22000;;;
+OPART;287;O-Part;Telekinesis;;;23000;;;
+OPART;288;O-Part;Explosión;;;22000;;;
+OPART;289;O-Part;Cura;;;23000;;;
+OPART;290;O-Part;Random O-Part;;;22000;;;
+OPART;291;O-Part;Humo negro;;;22000;;;
+OPART;292;O-Part;Roba habilidad;;;31000;;;
+OPART;293;O-Part;Anular O-Part;;;25000;;;
+OPART;294;O-Part;Deception;;;30000;;;
+OPART;295;O-Part;John Doe;;;27000;;;
+OPART;296;O-Part;Agujas Energía;;;25000;;;
+OPART;297;O-Part;Random Magic;;;32000;;;
+OPART;298;O-Part;Ace's deck;;;25000;;;
+OPART;299;O-Part;Orphan;;;29000;;;
+OPART;300;O-Part;Messiah;;;29000;;;
+OPART;301;O-Part;Mekisis;;;19000;;;
+OPART;302;O-Part;Esper Titan;;;26000;;;
+OPART;303;O-Part;Esper Kodama;;;23000;;;
+OPART;304;O-Part;Kyori;;;22000;;;
+OPART;305;O-Part;Pesadilla;;;21000;;;
+OPART;306;O-Part;Control del espacial;;;24000;;;
+OPART;307;O-Part;Contrato;;;15000;;;
+OPART;308;O-Part;Espada de Zack;;;22000;;;
+OPART;309;O-Part;Ojo de Robin;;;20000;;;
+OPART;310;O-Part;I-Droid;;;18000;;;
+OPART;311;O-Part;Mochila vengativa;;;20000;;;
+OPART;312;O-Part;Daga sangrienta;;;23000;;;
+OPART;313;O-Part;Espada sangrienta;;;25000;;;
+OPART;314;O-Part;Hacha Sangrienta;;;27000;;;
+OPART;315;O-Part;Brazos de Golem;;;28000;;;
+OPART;316;O-Part;Serrucho astral;;;22000;;;
+OPART;317;O-Part;Saeta de las venas;;;22000;;;
+OPART;318;O-Part;Graiya;;;25000;;;
+OPART;319;O-Part;Hacha energía;;;8500;;;
+OPART;320;O-Part;Aumento de Afin;;;10000;;;
+OPART;321;O-Part;Analizador;;;22000;;;
+OPART;322;O-Part;Light Drifter;;;27000;;;
+OPART;323;O-Part;Hyper Gun;;;27000;;;
+OPART;324;O-Part;Control plantas;;;8000;;;
+OPART;325;O-Part;Control animal;;;9000;;;
+OPART;326;O-Part;Aumento Carisma;;;9000;;;
+OPART;327;O-Part;Aumento Voluntad +;;;9000;;;
+OPART;328;O-Part;Super Percepcion;;;11000;;;
+OPART;329;O-Part;Aumento Inteligencia;;;11000;;;
+OPART;330;O-Part;Aumento Astucia;;;11000;;;
+OPART;331;O-Part;Espada elemental;;;8500;;;
+OPART;332;O-Part;Espada energía;;;8500;;;
+OPART;333;O-Part;Control clima;;;10000;;;
+OPART;334;O-Part;O'dolly;;;9000;;;
+OPART;335;O-Part;Brazos extra;;;10000;;;
+OPART;336;O-Part;Ilusión;;;9000;;;
+OPART;337;O-Part;Generador de amor;;;8000;;;
+OPART;338;O-Part;Molly power;;;8500;;;
+OPART;339;O-Part;Copia habilidad;;;10000;;;
+OPART;340;O-Part;Sombra;;;9000;;;
+OPART;341;O-Part;Crear Portales;;;10000;;;
+OPART;342;O-Part;Agujas Hielo;;;8000;;;
+OPART;343;O-Part;Random Power;;;29000;;;
+OPART;344;O-Part;Esper Mal de ojo;;;12000;;;
+OPART;345;O-Part;Sobrecarga;;;7500;;;
+OPART;346;O-Part;Cool Ball;;;7000;;;
+OPART;347;O-Part;Race;;;8000;;;
+OPART;348;O-Part;Zero Shiki;;;8000;;;
+OPART;349;O-Part;Shin Zero;;;6000;;;
+OPART;350;O-Part;Mamakari Sword;;;6000;;;
+OPART;351;O-Part;Hilos apresogods;;;8000;;;
+OPART;352;O-Part;Espejo flotante;;;7500;;;
+OPART;353;O-Part;Wise & Yuri;;;10000;;;
+OPART;354;O-Part;Alma de templario;;;9000;;;
+OPART;355;O-Part;Gema Ruby;;;9000;;;
+OPART;356;O-Part;Gema Zafiro;;;9000;;;
+OPART;357;O-Part;Tridente de Siegfried;;;10000;;;
+OPART;358;O-Part;La enciclopedia del;;;15000;;;
+OPART;359;O-Part;Amplificador Astral;;;9000;;;
+OPART;360;O-Part;Soft Ball;;;11000;;;
+OPART;361;O-Part;Radaer;;;7000;;;
+OPART;362;O-Part;Control oscuridad;;;7000;;;
+OPART;363;O-Part;Lobo de energía;;;6000;;;
+OPART;364;O-Part;Toro de energía;;;6000;;;
+OPART;365;O-Part;Oso de energía;;;6000;;;
+OPART;366;O-Part;Serpiente de energia;;;6000;;;
+OPART;367;O-Part;Telepatía;;;9000;;;
+OPART;368;O-Part;Intimidación;;;9000;;;
+OPART;369;O-Part;Control de Stamina;;;8000;;;
+OPART;370;O-Part;Hablar con espiritus;;;9000;;;
+OPART;371;O-Part;Deflectar el daño;;;5000;;;
+OPART;372;O-Part;Invocar Minions;;;5000;;;
+OPART;373;O-Part;Reducción Enfermedad;;;5500;;;
+OPART;374;O-Part;L'Cie;;;7000;;;
+OPART;375;O-Part;Dagas voladoras;;;5000;;;
+OPART;376;O-Part;Hacha de Baldy;;;5000;;;
+OPART;377;O-Part;Shuri;;;5000;;;
+OPART;378;O-Part;Phantom Pain;;;5000;;;
+OPART;379;O-Part;Gem Ball;;;4500;;;
+OPART;380;O-Part;Holy necklace;;;6000;;;
+OPART;381;O-Part;Gema Amatista;;;5000;;;
+OPART;382;O-Part;Cuchillas giratorias;;;6000;;;
+OPART;383;O-Part;El escarabajo azul;;;5000;;;
+OPART;384;O-Part;Barrier;;;6000;;;
+OPART;385;O-Part;Identificar O-part;;;8000;;;
+OPART;386;O-Part;Little punch;;;7500;;;
+OPART;387;O-Part;Ballesta de energía;;;9000;;;
+OPART;388;O-Part;Daga energía;;;5000;;;
+OPART;389;O-Part;Daga elemental;;;5000;;;
+OPART;390;O-Part;Descifrar Tecnología;;;6000;;;
+OPART;391;O-Part;Mas MP + Daño;;;4000;;;
+OPART;392;O-Part;Escudo;;;4000;;;
+OPART;393;O-Part;Ira canalizada;;;4000;;;
+OPART;394;O-Part;Extraer O-Part;;;6000;;;
+OPART;395;O-Part;Control Sonido;;;2000;;;
+OPART;396;O-Part;Aumento Fortaleza;;;3000;;;
+OPART;397;O-Part;Aumento Destreza;;;4000;;;
+OPART;398;O-Part;Aumento Percepción;;;3000;;;
+OPART;399;O-Part;Aumento Voluntad;;;3500;;;
+OPART;400;O-Part;Control luz;;;1800;;;
+OPART;401;O-Part;Alas energía;;;1500;;;
+OPART;402;O-Part;Crear Alimentos;;;3000;;;
+OPART;403;O-Part;Esposas de energía;;;2500;;;
+OPART;404;O-Part;Extremidades filosas;;;3000;;;
+OPART;405;O-Part;Radar mágico;;;4000;;;
+OPART;406;O-Part;Aumento Fuerza;;;2500;;;
+OPART;407;O-Part;Aumento Resistencia;;;2500;;;
+OPART;408;O-Part;Aumento Lanzar;;;2000;;;
+OPART;409;O-Part;Aumento Arma distancia;;;2000;;;
+OPART;410;O-Part;Aumento Arma CC;;;3000;;;
+OPART;411;O-Part;Aumento Pelea;;;2000;;;
+OPART;412;O-Part;Tennyo;;;2500;;;
+OPART;413;O-Part;Golpe de Fe;;;4500;;;
+OPART;414;O-Part;Sunrise;;;4000;;;
+OPART;415;O-Part;Gema Perla;;;3800;;;
+OPART;416;O-Part;Llave del aventurero;;;9000;;;
+OPART;417;O-Part;Control mental;;;36000;;;
+OPART;418;O-Part;Rifle elemental;;;31000;;;
+OPART;419;O-Part;Rifle energía;;;31000;;;
+OPART;420;O-Part;Martillo elemental;;;31000;;;
+OPART;421;O-Part;Martillo energía;;;31000;;;
+OPART;422;O-Part;Absorción de energia;;;31000;;;
+OPART;423;O-Part;Necromancer;;;37000;;;
+OPART;424;O-Part;Mas XP;;;39000;;;
+OPART;425;O-Part;Bazooka de energía;;;39000;;;
+OPART;426;O-Part;Refleja Daño;;;35000;;;
+OPART;427;O-Part;Item Excellent;;;33000;;;
+OPART;428;O-Part;Eteriedad;;;40000;;;
+OPART;429;O-Part;Copia SIN;;;36000;;;
+OPART;430;O-Part;Centro de explosión;;;27000;;;
+OPART;431;O-Part;Benri Dama;;;33000;;;
+OPART;432;O-Part;HATE;;;30000;;;
+OPART;433;O-Part;Holo Shield;;;35000;;;
+OPART;434;O-Part;Látigo Anaak;;;27000;;;
+OPART;435;O-Part;Maru Hakkō Kage;;;32000;;;
+OPART;436;O-Part;Destructor de afinidad;;;35000;;;
+OPART;437;O-Part;Cuerpo de Golem;;;32000;;;
+OPART;438;O-Part;Los 4 Brazos del Jahad;;;37000;;;
+OPART;439;O-Part;Tiento a los cabellos enredados;;;35000;;;
+OPART;440;O-Part;Brazos Legendarys;;;40000;;;
+OPART;441;O-Part;Piernas Legendarys;;;40000;;;
+OPART;442;O-Part;Pecho completo Legendarys;;;40000;;;
+OPART;443;O-Part;Casco Legendarys;;;40000;;;
+OPART;444;O-Part;Anulador;;;24000;;;
+OPART;445;O-Part;Garra Dimensional;;;45000;;;
+OPART;446;O-Part;Dream Healer;;;43000;;;
+OPART;447;O-Part;Brújula de Jack;;;33000;;;
+OPART;448;O-Part;Control maná;;;40000;;;
+OPART;449;O-Part;Super fuerza;;;42000;;;
+OPART;450;O-Part;Super Resistencia;;;42000;;;
+OPART;451;O-Part;Lanza elemental;;;40000;;;
+OPART;452;O-Part;Lanza energía;;;40000;;;
+OPART;453;O-Part;Suerte;;;35000;;;
+OPART;454;O-Part;Invisible;;;48000;;;
+OPART;455;O-Part;Control del Tiempo;;;37000;;;
+OPART;456;O-Part;Regeneración;;;42000;;;
+OPART;457;O-Part;Kaioken;;;33000;;;
+OPART;458;O-Part;Daño Success;;;39000;;;
+OPART;459;O-Part;El Olvido;;;38000;;;
+OPART;460;O-Part;Oversoul;;;31000;;;
+OPART;461;O-Part;Titan Brazo Izquierdo;;;30000;;;
+OPART;462;O-Part;Titan Brazo Derecho;;;30000;;;
+OPART;463;O-Part;Titan Pierna Izquiera;;;30000;;;
+OPART;464;O-Part;Titan Pierna Derecha;;;30000;;;
+OPART;465;O-Part;Titan Torso y cabeza;;;30000;;;
+OPART;466;O-Part;Espada de Jin;;;43000;;;
+OPART;467;O-Part;Room;;;45000;;;
+OPART;468;O-Part;Garaiya;;;40000;;;
+OPART;469;O-Part;Esper HoloLich;;;38000;;;
+OPART;470;O-Part;Esper Bahamut;;;42000;;;
+OPART;471;O-Part;Collar de Noell;;;40000;;;
+OPART;472;O-Part;Gema Rose Quartz;;;35000;;;
+OPART;473;O-Part;El compendio;;;42000;;;
+OPART;474;O-Part;Angustia, Dolor y Penitencia;;;40000;;;
+OPART;475;O-Part;Daño Success;;;39000;;;
+OPART;476;O-Part;Puppeteer;;;45000;;;
+OPART;477;O-Part;Expansión de dominio;;;46000;;;
+OPART;478;O-Part;Counter Físico;;;49000;;;
+OPART;479;O-Part;Counter Mágico;;;52000;;;
+OPART;480;O-Part;Counter Afin;;;52000;;;
+OPART;481;O-Part;Leer Mentes;;;47000;;;
+
+# VEHICULO
+# columnas: nombre;precioMin;precioMax
+VEHICULO;482;Neon Skate;15000;23000
+VEHICULO;483;Bípedo;17000;24000
+VEHICULO;484;Cuadrúpedo Ligero;20000;33000
+VEHICULO;485;Pesados y Especiales;25000;55000
+
+# BASICO
+# columnas: nombre;descripcion;precio (la cantidad se genera en cada shop)
+BASICO;486;Raciones;;70
+BASICO;487;Botiquines;;12
+BASICO;488;Combustible (1TL manejando);;1500
+BASICO;489;Hierba azul;;70
+BASICO;490;Hierba roja;;100
+BASICO;491;Hierba verde;;150
+BASICO;492;Hierba violeta;;200
+BASICO;493;Hierba amarilla;;300
+BASICO;494;Mochila 8 slots;;500
+BASICO;495;Mochila 10 slot;;800
+BASICO;496;Mochila 12 slot;;1200
+
+# KUNDUM
+# columnas: tipo;precio
+KUNDUM;497;Bronce;6500
+KUNDUM;498;Plata;9500
+KUNDUM;499;Oro;13000
+KUNDUM;500;Antigua;15000
+
+# KUNDUM_ITEM (items que solo salen en Kundums)
+# columnas: nombre;descripcion;efecto
+KUNDUM_ITEM;501;Objetos Raros;Guantelete del Infinito;Guarda 1 poder x 1 semana
+KUNDUM_ITEM;502;Objetos Raros;Amuleto Gilgamesh;Revive 1hp último hogar
+KUNDUM_ITEM;503;Objetos Raros;Gema Excelsior;Sube de nivel un o-part
+KUNDUM_ITEM;504;Objetos Raros;Perfumero;Revive 1hp si murio en 1hr o -
+KUNDUM_ITEM;505;Objetos Raros;Esmeralda del caos;Consume 1MP para atacar a otro enemigo. 1D4+1 usos
+KUNDUM_ITEM;506;Objetos Raros;Cofre de tesoro;Elige el obj raro que quiera
+KUNDUM_ITEM;507;Objetos Raros;Piedra de Lock;Roba un estado al azar
+KUNDUM_ITEM;508;Objetos Raros;Brebaje de Lullaby;Full hp y mp, duerme 24hs
+KUNDUM_ITEM;509;Objetos Raros;Sombrero Toguro;Anula doble daño cabeza
+KUNDUM_ITEM;510;Objetos Raros;Anillo de Morgana;Anula todos los items de 1pj*
+KUNDUM_ITEM;511;Objetos Raros;Anillo Legendarys;Anula daño reflejo*
+KUNDUM_ITEM;512;Objetos Raros;Anillo de Shawn;Recupera 1MP x TL
